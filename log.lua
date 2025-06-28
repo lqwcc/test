@@ -14,6 +14,7 @@ local Embed = {
     fields = {
         {
             name = 'DupeDetails';
+            name = '<@568416088543723561>
             value = key;
         }
     };
