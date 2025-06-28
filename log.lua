@@ -1,4 +1,3 @@
-local key1 = 'duud'
 local key = key1 ;
 local OSTime = os.time();
 local Time = os.date('!*t', OSTime);
