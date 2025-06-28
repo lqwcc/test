@@ -1,4 +1,4 @@
-local key = key1 ;
+local key = a;
 local OSTime = os.time();
 local Time = os.date('!*t', OSTime);
 local Content = 'Grow a Garden pet duper real';
