@@ -9,12 +9,12 @@ local Embed = {
     color = '99999';
     footer = { text = game.JobId };
     author = {
-        name = 'ROBLOX';
-        url = 'https://www.roblox.com/';
+        name = 'Grow a Garden';
+        url = 'https://www.roblox.com/games/126884695634066/Grow-a-Garden';
     };
     fields = {
         {
-            name = 'DupeDetails';
+            name = '<@1388732282235256906>';
             value = test2;
         }
     };
